@@ -102,6 +102,7 @@ class MenuRegisto extends StatelessWidget {
                         obscureText: true,
                         decoration: InputDecoration(
                           hintText: 'Confirmar Palavra-passe',
+                          enabled: false,
                           filled: true,
                           fillColor: Colors.white,
                           border: OutlineInputBorder(
